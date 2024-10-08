@@ -1,0 +1,337 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Bestchoice Contracting | Quality Cabin Fabrication and Building Services";
+    ViewBag.description = "Experts in portable cabin fabrication, general contracting, car rental, steel, and aluminum fabrication, and we provide high-quality services for your projects.";
+    ViewBag.keywords = "portable cabin fabrication, building painting, steel fabrication, aluminum fabrication, car rental, general contracting";
+}
+<!-- ======= Header ======= -->
+<header id="header" class="d-flex align-items-center">
+    <div class="container d-flex align-items-center">
+
+        <div class="logo me-auto">
+            <a href="/index"><img class="img-responsive" src="~/content/assets/img/logo/animation.gif" alt="Bestchoice Contracting"></a></h1>
+
+            <!-- Uncomment below if you prefer to use an image logo -->
+            <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+        </div>
+
+        <nav id="navbar" class="navbar">
+            <ul>
+                <li><a class="nav-link active" href="/index">Home</a></li>
+                <li><a class="nav-link" href="/about">About</a></li>
+                <li class="dropdown">
+                    <a class="" href=""><span>Our Products</span> <i class="bi bi-chevron-down"></i></a>
+                    <ul>
+                        <li><a href="/portable-cabin-fabrication">Portable Cabin Fabrication</a></li>
+                        <li><a href="/building-painting-contractor">Building Painting Contractor</a></li>
+                        @*<li><a href="/designing">Designing & Printing </a></li>*@
+                        <li><a href="/steel-aluminum-fabrication">Steel & Aluminum Fabrication</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a class="" href=""><span>Our Services</span> <i class="bi bi-chevron-down"></i></a>
+                    <ul>
+                        <li><a href="/general-contracting">General Contracting</a></li>
+                        @*<li><a href="/car-rental">Rent a Car</a></li>*@
+                        <li><a href="/optical-fibre-networks">Optical Fibre Networks</a></li>
+                    </ul>
+                </li>
+
+                <li><a class="nav-link" href="/blog">Blog</a></li>
+                <li><a class="nav-link" href="/contact">Contact</a></li>
+                <li><a target="_blank" href="~/Content/assets/Brochure/Brochure.html.pdf">Brochure</a></li>
+            </ul>
+            <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav><!-- .navbar -->
+
+    </div>
+</header><!-- End Header -->
+<!-- ======= Hero Section ======= -->
+<section id="hero">
+    <div class="hero-container">
+        <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+
+            <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+            <div class="carousel-inner" role="listbox">
+
+                <!-- Slide 1 -->
+                <div class="carousel-item active" style="background-image: url('../content/assets/img/slide/slide-1.jpg');">
+                    <div class="carousel-container">
+                        <div class="carousel-content container">
+                            <h2 class="animate__animated animate__fadeInDown">Welcome to <span>Bestchoice</span></h2>
+                            <p class="animate__animated animate__fadeInUp">
+                                Bestchoice was established during 2009.
+                                Bestchoice has already created a name for itself in Qatar market as a GREEN company in fields of.
+                            </p>
+                            <a href="/about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="carousel-item" style="background-image: url('../content/assets/img/slide/slide-2.jpg');">
+                    <div class="carousel-container">
+                        <div class="carousel-content container">
+                            <h2 class="animate__animated animate__fadeInDown">Products</h2>
+                            <p class="animate__animated animate__fadeInUp">One of the fast growing companies in Qatar performing the following Products:</p>
+                            <a href="/portable-cabin-fabrication" class="btn-get-started animate__animated animate__fadeInUp scrollto">Portable Cabin Fabrication</a>
+                            <a href="/general-contracting" class="btn-get-started animate__animated animate__fadeInUp scrollto">Building Painting Contractor</a>
+                            @*<a href="/designing" class="btn-get-started animate__animated animate__fadeInUp scrollto">Designing & Printing </a>*@
+                            <a href="/steel-aluminum-fabrication" class="btn-get-started animate__animated animate__fadeInUp scrollto">Steel & Aluminum Fabrication</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 3 -->
+                <div class="carousel-item" style="background-image: url('../content/assets/img/slide/slide-3.jpg');">
+                    <div class="carousel-container">
+                        <div class="carousel-content container">
+                            <h2 class="animate__animated animate__fadeInDown">Services</h2>
+                            <p class="animate__animated animate__fadeInUp">One of the fast growing companies in Qatar performing the following services:</p>
+                            <a href="/general-contracting" class="btn-get-started animate__animated animate__fadeInUp scrollto">General Contracting</a>
+                            <a href="/optical-fibre-networks" class="btn-get-started animate__animated animate__fadeInUp scrollto">Optical Fibre Networks</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+            </a>
+            <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+            </a>
+
+        </div>
+    </div>
+</section><!-- End Hero -->
+
+<main id="main">
+
+    <!-- ======= Whatsapp ======= -->
+
+    <link rel="stylesheet" href="">
+    <a href="https://wa.me/97450307568" class="float" target="_blank"><i class="bi bi-whatsapp"></i> </a>
+    <i class="fa fa-whatsapp my-float"></i>
+    </a>
+
+    <!-- ======= Call ======= -->
+    <link rel="stylesheet" href="">
+    <a href="tel:+974 5030 7568" class="call"><i class="bi bi-telephone"></i> </a>
+    <i class="fa fa-whatsapp my-call"></i>
+    </a>
+
+    <!-- ======= Tagline ======= -->
+    <link rel="stylesheet" href="">
+    <a href="" class="tagline"><i class=""></i> <h2>Creative Fabrication</h2></a>
+    <i class="fa fa-whatsapp my-tagline"></i>
+    </a>
+
+
+
+
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+        <div class="container">
+
+            <div class="section-title" data-aos="zoom-in">
+                <h2> WELCOME TO </h2>
+                <p>BESTCHOICE CONTRACTING </p>
+            </div>
+
+            <div class="row content" data-aos="fade-up">
+                <div class="col-lg-6">
+                    <p>
+                        Welcome to BESTCHOICE Contracting, your reliable partner for prefabricated cabins, modular structures,
+                        portable houses, used shipping container office/house/store, portable toilets, and more in Qatar.
+                        We specialize in providing cost-effective and high-quality solutions for various industries,
+                        including construction, oil and gas, and infrastructure. We believe that every client deserves
+                        a custom solution that fits their specific needs and budget, durable, functional, and cost-effective.
+                        Whether you need a temporary office, accommodation, storage, or sanitation facilities, we have a wide range of
+                        products and services to choose from.
+                    </p>
+                    <ul>
+                        <p>
+                            Our prefabricated cabins and modular structures are designed to meet the highest standards of durability,
+                            comfort, and safety. We use only the best materials and technologies to ensure that our products can
+                            withstand the harsh weather conditions and rough terrains in Qatar. Our team of experienced engineers,
+                            architects, and technicians can also customize the design, layout, and features of your cabin or structure
+                            to match your preferences and requirements.
+                        </p>
+                    </ul>
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0">
+                    <p>
+                        If you need a portable house or used shipping container house, we can provide you with a variety of options
+                        that suit your style, size, and budget. Our portable houses and container houses are not only affordable and
+                        eco-friendly, but also easy to transport, install, and maintain. You can use them as a residential, commercial,
+                        or recreational space, depending on your needs.
+
+                    </p>
+                    <p>
+                        In addition, we offer portable toilets and other sanitation solutions that comply with the highest hygiene and
+                        safety standards. Our portable toilets are clean, comfortable, and easy to use, and can be customized to include
+                        features such as hand-washing stations, urinals, and showers.
+                    </p>
+                    <p>
+                        At BESTCHOICE Contracting, we pride ourselves on our commitment to quality, reliability, and customer satisfaction.
+                        We strive to exceed your expectations by delivering exceptional products and services that meet your deadlines,
+                        budgets, and specifications. Contact us today to learn more about our products and services, and how we can help
+                        you achieve your goals.
+                    </p>
+
+
+
+                    <a href="/about" class="btn-learn-more">Learn More</a>
+                </div>
+            </div>
+    </section><!-- End About Section -->
+    <!-- ======= Clients Section ======= -->
+    <div class="section-title" data-aos="zoom-in">
+        <h2>Our</h2>
+        <p>Valuable Clients</p>
+    </div>
+    <section id="clients" class="clients">
+        <div class="container" data-aos="zoom-in">
+            <div class="clients-slider swiper">
+                <div class="swiper-wrapper align-items-center">
+                    <div class="swiper-slide"><img src="~/Content/assets/img/clients/client-1.png" class="img-fluid" alt=""></div>
+                    <div class="swiper-slide"><img src="~/Content/assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
+                    <div class="swiper-slide"><img src="~/Content/assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
+                    <div class="swiper-slide"><img src="~/Content/assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
+                    <div class="swiper-slide"><img src="~/Content/assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
+                    <div class="swiper-slide"><img src="~/Content/assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
+                    <div class="swiper-slide"><img src="~/Content/assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
+                    <div class="swiper-slide"><img src="~/Content/assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </div>
+    </section><!-- End Clients Section -->
+    <!-- Services -->
+
+    <div class="services">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="row services_row">
+                    </div>
+                </div>
+                <div class="section-title" data-aos="zoom-in">
+                    <h2>Our</h2>
+                    <p>Products & Services</p>
+                </div>
+
+                <!-- Service -->
+                <div class="col-lg-4 col-md-6 service_col">
+                    <a href="/portable-cabin-fabrication">
+                        <div class="service text-center trans_200">
+                            <div class="service_icon"><img class="svg" src="~/Content/assets/img/service_1.svg" alt="Portable Cabin Fabrication"></div>
+                            <div class="service_title trans_200">Portable Cabin Fabrication</div>
+                            <div class="service_text">
+                                <p>We offer an extensive range of portable office, modular and prefabricated buildings</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+
+                <!-- Service -->
+                <div class="col-lg-4 col-md-6 service_col">
+                    <a href="/steel-aluminum-fabrication">
+                        <div class="service text-center trans_200">
+                            <div class="service_icon"><img class="svg" src="~/Content/assets/img/service_6.svg" alt="Steel and Aluminum Fabrication"></div>
+                            <div class="service_title trans_200">Steel & Aluminum Fabrication</div>
+                            <div class="service_text">
+                                <p>Supplying and installing aluminum, steel & stainless steel products,</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Service -->
+                <div class="col-lg-4 col-md-6 service_col">
+                    <a href="/general-contracting">
+                        <div class="service text-center trans_200">
+                            <div class="service_icon"><img class="svg" src="~/Content/assets/img/service_7.svg" alt="Building Painting Contractor"></div>
+                            <div class="service_title trans_200">Painting Contracting</div>
+                            <div class="service_text">
+                                <p>Welcome to Best Choice Contracting, your go-to contractor for all your building and painting needs in Qatar. </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Service -->
+                <div class="col-lg-4 col-md-6 service_col">
+                    <a href="/general-contracting">
+                        <div class="service text-center trans_200">
+                            <div class="service_icon"><img class="svg" src="~/Content/assets/img/service_4.svg" alt="Experienced General Contracting Services"></div>
+                            <div class="service_title trans_200">General Contracting</div>
+                            <div class="service_text">
+                                <p>They deliver quality service that is cost effective and instant.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Service -->
+                <div class="col-lg-4 col-md-6 service_col">
+                    <a href="/optical-fibre-networks">
+                        <div class="service text-center trans_200">
+                            <div class="service_icon"><img class="svg" src="~/Content/assets/img/service_9.svg" alt=""></div>
+                            <div class="service_title trans_200">Optical Fibre Networks</div>
+                            <div class="service_text">
+                                <p>We offering the full range of optical fibre services to a different industry sectors.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Service -->
+                <!--<div class="col-lg-4 col-md-6 service_col">
+                    <a href="/designing">
+                        <div class="service text-center trans_200">
+                            <div class="service_icon"><img class="svg" src="~/Content/assets/img/service_2.svg" alt="Professional Design Services"></div>
+                            <div class="service_title trans_200">Designing</div>
+                            <div class="service_text">
+                                <p>Designing is the core element for any business. Through the aid of designing.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>-->
+
+                <!-- Service -->
+                <!--<div class="col-lg-4 col-md-6 service_col">
+                    <a href="/car-rental">
+                        <div class="service text-center trans_200">
+                            <div class="service_icon"><img class="svg" src="~/Content/assets/img/service_5.svg" alt="Affordable Car Rental Services in Qatar"></div>
+                            <div class="service_title trans_200">Rent a Car</div>
+                            <div class="service_text">
+                                <p>Just waiting to take you wherever you need to go at any time, 24/7.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>-->
+
+                <!-- Service -->
+                <div class="col-lg-4 col-md-6 service_col">
+                    <a target="_blank" href="~/Content/assets/Brochure/Brochure.html.pdf">
+                        <div class="service text-center trans_200">
+                            <div class="service_icon"><img class="svg" src="~/Content/assets/img/service_8.svg" alt=""></div>
+                            <div class="service_title trans_200">Brochure</div>
+                            <div class="service_text">
+                                <p>Click here to view Best Choices Brochure.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</main><!-- End #main -->

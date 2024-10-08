@@ -1,0 +1,285 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+
+    #left-area {
+        width: 79.125%;
+        padding-bottom: 23px;
+        float: left;
+        font-family: "Open Sans", sans-serif;
+    }
+
+    .et_pb_post {
+        margin-bottom: 60px;
+        word-wrap: break-word;
+    }
+
+    left-area .post-meta {
+        font-size: 14px;
+        padding-bottom: 15px;
+    }
+
+    #main-content {
+        background-color: #fff;
+    }
+
+    body:not(.et-tb) #main-content .container, body:not(.et-tb-has-header) #main-content .container {
+        padding-top: 58px;
+    }
+
+    .et_right_sidebar #left-area {
+        /*float: left;*/
+        padding-right: 5.5%;
+    }
+
+    .et_right_sidebar #sidebar {
+        padding-left: 30px;
+    }
+
+    #sidebar {
+        float: left;
+        padding-bottom: 28px;
+        border-left: 2px solid #e2e2e2;
+        padding-left: 10px;
+    }
+
+        #sidebar .et_pb_widget {
+            margin-bottom: 30px;
+            width: 100%;
+            float: none;
+        }
+
+    .et_pb_widget {
+        max-width: 100%;
+        word-wrap: break-word;
+    }
+
+        .widget_search #searchform, .et_pb_widget .wp-block-search {
+            position: relative;
+        }
+
+        .widget_search .screen-reader-text, .et_pb_widget .wp-block-search__label {
+            display: none;
+        }
+
+    .wp-block-search .wp-block-search__label {
+        font-weight: 700;
+    }
+
+    block-search__input {
+        width: 100%;
+        border-radius: 3px;
+    }
+
+    .et_pb_widget .wp-block-search__input, .et_pb_widget .wp-block-search__button {
+        padding: 0.7em;
+        height: 40px !important;
+        margin: 0;
+        font-size: 14px;
+        line-height: normal !important;
+        border: 1px solid #ddd;
+        color: #666;
+    }
+
+    #searchsubmit, .et_pb_widget .wp-block-search__button {
+        cursor: pointer;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        color: #333;
+        padding-bottom: 10px;
+        line-height: 1em;
+        font-weight: 500;
+        font-family: "Open Sans", sans-serif;
+    }
+
+    ol, ul {
+        list-style-type: decimal-leading-zero;
+    }
+
+    .et_right_sidebar #sidebar {
+        padding-left: 30px;
+    }
+
+    body, h1, h2, h3, p, span {
+        font-family: "Open Sans", sans-serif;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    .entry-content{padding-top:15px;}
+</style>
+<!-- ======= Header ======= -->
+<header id="header" class="d-flex align-items-center">
+    <div class="container d-flex align-items-center">
+
+        <div class="logo me-auto">
+            <a href="/index"><img class="img-responsive" src="~/content/assets/img/logo/animation.gif" alt=""></a></h1>
+
+            <!-- Uncomment below if you prefer to use an image logo -->
+            <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+        </div>
+
+        <nav id="navbar" class="navbar">
+            <ul>
+                <li><a class="nav-link" href="/index">Home</a></li>
+                <li><a class="nav-link" href="/about">About</a></li>
+                <li class="dropdown">
+                    <a class="" href=""><span>Our Products</span> <i class="bi bi-chevron-down"></i></a>
+                    <ul>
+                        <li><a href="/portable-cabin-fabrication">Portable Cabin Fabrication</a></li>
+                        <li><a href="/building-painting-contractor">Building Painting Contractor</a></li>
+                        @*<li><a href="/designing">Designing & Printing </a></li>*@
+                        <li><a href="/steel-aluminum-fabrication">Steel & Aluminum Fabrication</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a class="" href=""><span>Our Services</span> <i class="bi bi-chevron-down"></i></a>
+                    <ul>
+                        <li><a href="/general-contracting">General Contracting</a></li>
+                        @*<li><a href="/car-rental">Rent a Car</a></li>*@
+                        <li><a href="/optical-fibre-networks">Optical Fibre Networks</a></li>
+                    </ul>
+                </li>
+
+                <li><a class="nav-link active" href="/blog">Blog</a></li>
+                <li><a class="nav-link" href="/contact">Contact</a></li>
+                <li><a target="_blank" href="~/Content/assets/Brochure/Brochure.html.pdf">Brochure</a></li>
+            </ul>
+            <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav><!-- .navbar -->
+
+    </div>
+</header><!-- End Header -->
+
+
+
+
+<main id="main">
+
+    <!-- ======= Whatsapp ======= -->
+
+    <link rel="stylesheet" href="">
+    <a href="https://wa.me/97450307568" class="float" target="_blank"><i class="bi bi-whatsapp"></i> </a>
+    <i class="fa fa-whatsapp my-float"></i>
+
+    <!-- ======= Call ======= -->
+    <link rel="stylesheet" href="">
+    <a href="tel:+974 5030 7568" class="call"><i class="bi bi-telephone"></i> </a>
+    <i class="fa fa-whatsapp my-call"></i>
+
+    <!-- ======= Tagline ======= -->
+    <link rel="stylesheet" href="">
+    <a href="" class="tagline"><i class=""></i> <h2>Creative Fabrication</h2></a>
+    <i class="fa fa-whatsapp my-tagline"></i>
+
+    <div id="et-main-area">
+        <div id="main-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-9">
+                        <div id="content-area" class="clearfix">
+                            <div id="left-area">
+                                <article id="post-1009" class="et_pb_post post-1009 post type-post status-publish format-standard hentry category-uncategorized">
+                                    <div class="et_post_meta_wrapper">
+                                        <h2 class="entry-title">A Guide to Choosing the Best Container Cabins, Office Cabins, and Caravans Manufacturers in Qatar</h2>
+                                        <p class="post-meta"> by <span class="author vcard"><a href="#" title="Posts by admin" rel="author">admin</a></span> | <span class="published">August 15, 2023</span> | <a href="#" rel="category tag">Uncategorized</a> | <span class="comments-number"><a href="#">0 comments</a></span></p>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                                <img src="~/Content/assets/img/Products/cabin/cabin-2.jpg" width="200" height="200" class="img-responsive" />
+                                        </div>
+                                        <div class="col-sm-4">
+                                                <img src="~/Content/assets/img/Products/cabin/cabin-3.jpg" width="200" height="200" class="img-responsive" />
+                                        </div>
+                                        <div class="col-sm-4">
+                                                <img src="~/Content/assets/img/Products/cabin/cabin-4.jpg" width="200" height="200" class="img-responsive" />
+                                        </div>
+                                    </div>
+                                    <div class="entry-content">
+                                        <div class="et-l et-l--post">
+                                            <div class="et_builder_inner_content et_pb_gutters3">
+                                                <div class="et_pb_section et_pb_section_0 et_section_regular">
+                                                    <div class="et_pb_row et_pb_row_0">
+                                                        <div class="et_pb_column et_pb_column_1_2 et_pb_column_0  et_pb_css_mix_blend_mode_passthrough">
+                                                            <div class="et_pb_module et_pb_text et_pb_text_0  et_pb_text_align_left et_pb_bg_layout_light">
+                                                                <div class="et_pb_text_inner">
+                                                                    <h2><span style="color: #000000;"><strong>Introduction: </strong></span></h2>
+                                                                    <p><span>Qatar, a country known for its rapid development and booming economy, is witnessing an increased demand for quality container cabins, office cabins, and caravans. Whether you need a temporary living space, a portable office, or a mobile home, selecting the right manufacturer is crucial. In this blog, we will discuss essential factors to consider when choosing the best cabins, office cabins, and caravans manufacturers in Qatar, ensuring you make an informed decision.</span></p>
+                                                                </div>
+                                                            </div>
+                                                        </div><div class="et_pb_column et_pb_column_1_2 et_pb_column_1  et_pb_css_mix_blend_mode_passthrough et-last-child">
+                                                            <div class="et_pb_module et_pb_text et_pb_text_1  et_pb_text_align_left et_pb_bg_layout_light">
+                                                            </div>
+                                                        </div>
+                                                    </div><div class="et_pb_row et_pb_row_1">
+                                                        <div class="et_pb_column et_pb_column_4_4 et_pb_column_2  et_pb_css_mix_blend_mode_passthrough et-last-child">
+                                                            <div class="et_pb_module et_pb_text et_pb_text_2  et_pb_text_align_left et_pb_bg_layout_light">
+                                                                <div class="et_pb_text_inner">
+                                                                    <h2><span>Research the Reputation:</span></h2>
+                                                                    <p><span>Before you start your hunt for the best manufacturers, spend some time researching the reputation of different companies. Look for customer reviews, testimonials, and ratings online. Additionally, seek recommendations from friends, colleagues, or business partners who have prior experience in purchasing cabins or caravans in Qatar. A manufacturer with a strong reputation for quality products and customer service is more likely to meet your expectations.</span></p>
+                                                                </div>
+                                                            </div><div class="et_pb_module et_pb_text et_pb_text_3  et_pb_text_align_left et_pb_bg_layout_light">
+                                                                <div class="et_pb_text_inner">
+                                                                    <h2><span>Quality and Materials:</span></h2>
+                                                                    <p><span>The quality of the cabins and caravans is paramount, as they need to withstand various environmental conditions in Qatar. Pay attention to the materials used in the manufacturing process. High-quality steel, aluminum, and other durable materials are essential for cabins and caravans that last long and can handle the region’s extreme weather, such as heat and sandstorms.</span></p>
+                                                                </div>
+                                                            </div><div class="et_pb_module et_pb_text et_pb_text_4  et_pb_text_align_left et_pb_bg_layout_light">
+                                                                <div class="et_pb_text_inner">
+                                                                    <h2><span>Customization Options: </span></h2>
+                                                                    <p><span>Every customer’s needs are different, so choose a manufacturer that offers customization options. Whether you need specific interior layouts, additional features, or personalized branding for your office cabins, ensure that the manufacturer can cater to your requirements. This flexibility will ensure that you get the perfect product that aligns with your vision.</span></p>
+                                                                </div>
+                                                            </div><div class="et_pb_module et_pb_text et_pb_text_5  et_pb_text_align_left et_pb_bg_layout_light">
+                                                                <div class="et_pb_text_inner">
+                                                                    <h2><span>Compliance with Standards:</span></h2>
+                                                                    <p><span>Ensure that the manufacturer complies with the necessary safety and quality standards. Cabin and caravan manufacturers should adhere to local building codes, international safety regulations, and industry standards to ensure the safety and structural integrity of their products.</span></p>
+                                                                </div>
+                                                            </div><div class="et_pb_module et_pb_text et_pb_text_6  et_pb_text_align_left et_pb_bg_layout_light">
+                                                                <div class="et_pb_text_inner">
+                                                                    <h2><span>Delivery and Installation: </span></h2>
+                                                                    <p><span>Consider the manufacturer’s delivery and installation process. Check if they offer on-site installation services to ensure proper assembly and avoid any complications. Swift and efficient installation will minimize disruptions to your plans and business operations.</span></p>
+                                                                </div>
+                                                            </div><div class="et_pb_module et_pb_text et_pb_text_7  et_pb_text_align_left et_pb_bg_layout_light">
+                                                                <div class="et_pb_text_inner">
+                                                                    <h2><span>Pricing and Payment Options: </span></h2>
+                                                                    <p><span>While cost is a crucial factor, avoid compromising on quality for the sake of a lower price. Obtain quotes from multiple manufacturers and compare them against the features and benefits they offer. Also, inquire about payment options and whether they offer financing or leasing plans, as these can be beneficial for businesses working with budget constraints.</span></p>
+                                                                </div>
+                                                            </div>
+                                                        </div><div class="et_pb_module et_pb_text et_pb_text_7  et_pb_text_align_left et_pb_bg_layout_light">
+                                                            <div class="et_pb_text_inner">
+                                                                <h2><span>Conclusion:</span></h2>
+                                                                <p><span>Selecting the best container cabins, office cabins, and caravans manufacturers in Qatar requires careful research and consideration. Look for a reputable manufacturer that offers high-quality products, customization options, and excellent after-sales support. Always prioritize safety, durability, and compliance with industry standards. By making a well-informed decision, you’ll be one step closer to acquiring the perfect cabin or caravan that suits your needs and withstands the challenges of Qatar’s environment.</span></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-3">
+                        <div id="sidebar">
+                            <div id="block-3" class="et_pb_widget widget_block">
+                                <div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
+                                    <h2 class="wp-block-heading">Recent Posts</h2><ul class="wp-block-latest-posts__list wp-block-latest-posts">
+                                        <li><a class="wp-block-latest-posts__post-title" href="/portable-cabin-manufacturers-in-qatar/">Portable Cabin Manufacturers in Qatar</a></li>
+                                        <li><a class="wp-block-latest-posts__post-title" href="/guid-to-choose-best-container">A Guide to Choosing the Best Container Cabins, Office Cabins, and Caravans Manufacturers in Qatar</a></li>
+                                        <li> <a class="wp-block-latest-posts__post-title" href="/site-cabins-offices-welfare-accommodation">Modular Cabins: Offices, Accommodation & Welfare</a></li>
+                                    </ul>
+                                </div>
+                            </div><div id="block-4" class="et_pb_widget widget_block"><div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow"><h2 class="wp-block-heading">Recent Comments</h2><div class="no-comments wp-block-latest-comments">No comments to show.</div></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</main><!-- End #main -->

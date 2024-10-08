@@ -1,0 +1,166 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Contact Us | Bestchoice Qatar - Your Destination for Quality Services";
+    ViewBag.description = "Reach out to Bestchoice Qatar for inquiries, assistance, and exceptional services. We're here to serve you. Contact Us today.";
+    ViewBag.keywords = "bestchoice qatar contact, contact information bestchoice qatar, contact us page bestchoice, bestchoice qatar customer support, reach bestchoice qatar";
+
+}
+
+<!-- ======= Header ======= -->
+<header id="header" class="d-flex align-items-center">
+    <div class="container d-flex align-items-center">
+
+        <div class="logo me-auto">
+            <a href="/index"><img class="img-responsive" src="~/content/assets/img/logo/animation.gif" alt="Bestchoice Contracting"></a></h1>
+
+            <!-- Uncomment below if you prefer to use an image logo -->
+            <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+        </div>
+
+        <nav id="navbar" class="navbar">
+            <ul>
+                <li><a class="nav-link" href="/index">Home</a></li>
+                <li><a class="nav-link" href="/about">About</a></li>
+                <li class="dropdown">
+                    <a class="" href=""><span>Our Products</span> <i class="bi bi-chevron-down"></i></a>
+                    <ul>
+                        <li><a href="/portable-cabin-fabrication">Portable Cabin Fabrication</a></li>
+                        <li><a href="/building-painting-contractor">Building Painting Contractor</a></li>
+                        @*<li><a href="/designing">Designing & Printing </a></li>*@
+                        <li><a href="/steel-aluminum-fabrication">Steel & Aluminum Fabrication</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a class="" href=""><span>Our Services</span> <i class="bi bi-chevron-down"></i></a>
+                    <ul>
+                        <li><a href="/general-contracting">General Contracting</a></li>
+                        @*<li><a href="/car-rental">Rent a Car</a></li>*@
+                        <li><a href="/optical-fibre-networks">Optical Fibre Networks</a></li>
+                    </ul>
+                </li>
+
+                <li><a class="nav-link" href="/blog">Blog</a></li>
+                <li><a class="nav-link active" href="/contact">Contact</a></li>
+                <li><a target="_blank" href="~/Content/assets/Brochure/Brochure.html.pdf">Brochure</a></li>
+            </ul>
+            <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav><!-- .navbar -->
+
+    </div>
+</header><!-- End Header -->
+<!-- ======= Whatsapp ======= -->
+
+<link rel="stylesheet" href="">
+<a href="https://wa.me/97450307568" class="float" target="_blank"><i class="bi bi-whatsapp"></i> </a>
+<i class="fa fa-whatsapp my-float"></i>
+     </a>
+
+<!-- ======= Call ======= -->
+<link rel="stylesheet" href="">
+<a href="tel:+974 5030 7568" class="call"><i class="bi bi-telephone"></i> </a>
+<i class="fa fa-whatsapp my-call"></i>
+     </a>
+
+<!-- ======= Tagline ======= -->
+<link rel="stylesheet" href="">
+<a href="" class="tagline"><i class=""></i> <h2>Creative Fabrication</h2></a>
+<i class="fa fa-whatsapp my-tagline"></i>
+     </a>
+
+
+
+
+
+
+
+
+<!-- ======= Breadcrumbs ======= -->
+<div class="breadcrumbs d-flex align-items-center" style="background-image: url('../content/assets/img/header/Contact.jpg');">
+    <div class="container position-relative d-flex flex-column align-items-center">
+
+        <h2>Contact</h2>
+        <ol>
+            <li><a href="/index">Home</a></li>
+            <li>Contact</li>
+        </ol>
+
+    </div>
+</div><!-- End Breadcrumbs -->
+<!-- ======= Contact Section ======= -->
+<section id="contact" class="contact">
+    <div class="container">
+
+        <div class="section-title" data-aos="zoom-out">
+            <h2>Contact</h2>
+            <p>Contact Us</p>
+        </div>
+
+        <div class="row mt-5">
+
+            <div class="col-lg-4" data-aos="fade-right">
+                <div class="info">
+                    <div class="address">
+                        <i class="bi bi-geo-alt"></i>
+                        <h4>Location:</h4>
+                        <p>Old Al Ghanem, Doha-Qatar</p>
+                    </div>
+
+                    <div class="email">
+                        <i class="bi bi-envelope"></i>
+                        <h4>Email:</h4>
+                        <p>info@bestchoiceqatar.net</p>
+                    </div>
+
+                    <div class="phone">
+                        <i class="bi bi-phone"></i>
+                        <h4>Call:</h4>
+                        <p>+974 5030 7568</p>
+                        <p>+974 4001 1200</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-8 mt-5 mt-lg-0" data-aos="fade-left">              
+                    <form action="/Contact" method="post" role="form" class="php-email-form">
+                        <div class="row">
+                            <div class="col-md-6 form-group">
+                                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="col-md-6 form-group mt-3 mt-md-0">
+                                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                            </div>
+                        </div>
+                        <div class="form-group mt-3">
+                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group mt-3">
+                            <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                        </div>
+                        <div class="my-3">
+                            <div class="loading">Loading</div>
+                            <div class="error-message"></div>
+                            <div class="sent-message">Your message has been sent. Thank you!</div>
+                        </div>
+                        <div class="text-center"><button type="submit">Send Message</button></div>
+                    </form>
+
+            </div>
+
+        </div>
+
+    </div>
+</section><!-- End Contact Section -->
+
+<section id="contact-us" class="contact-us">
+    <div class="container">
+
+        <div>
+            <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d225.47256451716277!2d51.53732614402442!3d25.28534807571044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e45c56ab558c94b%3A0xa4967e22f4d83102!2sDIRA%20COMMERCIAL!5e0!3m2!1sen!2sqa!4v1661953067758!5m2!1sen!2sqa" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+
+</section><!-- End Contact Us Section -->
+
+<main id="main">
